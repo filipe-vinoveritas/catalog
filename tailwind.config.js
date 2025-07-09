@@ -4,6 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
+        burgundy: '#722F37',
+        'burgundy-dark': '#5A252A',
+        gold: '#D4AF37',
+        cream: '#F5F5DC',
+        charcoal: '#2C2C2C',
         primary: '#6366f1',
         'primary-light': '#818cf8',
         secondary: '#f1f5f9',

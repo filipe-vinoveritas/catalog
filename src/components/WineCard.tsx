@@ -31,7 +31,7 @@ const WineCard: React.FC<WineCardProps> = ({ wine }) => {
       
       {/* Content */}
       <div className="p-4">
-        <h3 className="text-sm font-semibold text-primary leading-tight line-clamp-3 group-hover:text-primary-light transition-colors duration-200">
+        <h3 className="text-sm font-semibold text-gold leading-tight line-clamp-3 group-hover:text-burgundy transition-colors duration-200">
           {wine.name}
         </h3>
       </div>

@@ -1,5 +1,11 @@
 /* Custom CSS Variables - Cores Claras e Modernas */
 :root {
+  --burgundy: #722F37;
+  --burgundy-dark: #5A252A;
+  --gold: #D4AF37;
+  --cream: #F5F5DC;
+  --charcoal: #2C2C2C;
+  --white: #FFFFFF;
   --primary: #6366f1;
   --primary-light: #818cf8;
   --secondary: #f1f5f9;
@@ -15,6 +21,34 @@
 }
 
 /* Custom Tailwind Classes */
+.bg-burgundy {
+  background-color: var(--burgundy);
+}
+
+.bg-burgundy-dark {
+  background-color: var(--burgundy-dark);
+}
+
+.bg-gold {
+  background-color: var(--gold);
+}
+
+.text-burgundy {
+  color: var(--burgundy);
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.text-charcoal {
+  color: var(--charcoal);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+
 .bg-primary {
   background-color: var(--primary);
 }
@@ -118,6 +152,14 @@
 }
 
 /* Gradient Backgrounds */
+.bg-wine-gradient {
+  background: linear-gradient(135deg, var(--burgundy) 0%, #B22222 50%, #722F37 100%);
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, var(--gold) 0%, #FFA500 100%);
+}
+
 .bg-gradient-primary {
   background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
 }

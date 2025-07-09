@@ -16,10 +16,10 @@ const ProducerSection: React.FC<ProducerSectionProps> = ({ producer, isEven }) =
     >
       <div className="p-8 md:p-12">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4 tracking-tight">
+          <h2 className="text-4xl md:text-5xl font-bold text-gold mb-4 tracking-tight">
             {producer.name}
           </h2>
-          <div className="w-16 h-1 bg-gradient-primary mx-auto rounded-full"></div>
+          <div className="w-16 h-1 bg-gold-gradient mx-auto rounded-full"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
