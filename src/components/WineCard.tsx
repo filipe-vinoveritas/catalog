@@ -15,7 +15,7 @@ const WineCard: React.FC<WineCardProps> = ({ wine }) => {
           <img
             src={wine.imageUrl}
             alt={wine.name}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            className="w-full h-full object-cover"
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-surface to-secondary">
@@ -28,10 +28,10 @@ const WineCard: React.FC<WineCardProps> = ({ wine }) => {
           </div>
         )}
       </div>
-      
+
       {/* Content */}
       <div className="p-4">
-        <h3 className="text-sm font-semibold text-gold leading-tight line-clamp-3 group-hover:text-burgundy transition-colors duration-200">
+        <h3 className="text-sm font-semibold text-burgundy leading-tight line-clamp-3">
           {wine.name}
         </h3>
       </div>

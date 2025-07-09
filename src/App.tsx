@@ -20,16 +20,16 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-custom py-12 mt-20">
+      {/* <footer className="bg-white border-t border-custom py-12 mt-20">
         <div className="container mx-auto px-4 text-center">
           <div className="w-16 h-1 bg-gold-gradient mx-auto mb-6 rounded-full"></div>
           <h3 className="text-2xl font-bold text-gold mb-2">Vino Veritas</h3>
-          <p className="text-secondary">Catálogo Premium de Vinhos</p>
+          <p className="text-[#64748b]">Catálogo Premium de Vinhos</p>
           <p className="text-muted mt-4 text-sm">
             Descubra a excelência dos vinhos selecionados
           </p>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
