@@ -4,15 +4,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        burgundy: '#722F37',
-        'burgundy-dark': '#5A252A',
-        gold: '#D4AF37',
-        // 'deep-red': '#B22222',
-        // 'wine-purple': '#722F37',
-        charcoal: '#2C2C2C',
-        cream: '#F5F5DC',
-        // 'accent-orange': '#FF6B35',
-        white: '#FFFFFF',
+        primary: '#6366f1',
+        'primary-light': '#818cf8',
+        secondary: '#f1f5f9',
+        accent: '#f59e0b',
+        surface: '#f8fafc',
+        border: '#e2e8f0',
+      },
+      fontFamily: {
+        display: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+      },
+      animation: {
+        'fade-in-up': 'fadeInUp 0.6s ease-out',
+        'slide-in-left': 'slideInLeft 0.6s ease-out',
+        'slide-in-right': 'slideInRight 0.6s ease-out',
+        'scale-in': 'scaleIn 0.4s ease-out',
       },
     },
   },

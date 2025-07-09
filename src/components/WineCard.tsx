@@ -8,30 +8,33 @@ interface WineCardProps {
 
 const WineCard: React.FC<WineCardProps> = ({ wine }) => {
   return (
-    <div className=" bg-white rounded-lg overflow-hidden shadow-lg p-[0.08rem] flex w-[40vw]">
-      <div className="flex items-center gap-5 bg-gradient-to-br from-white to-cream/30">
+    <div className="group bg-white rounded-xl shadow-card hover:shadow-card-hover transition-all duration-300 overflow-hidden border border-custom hover:border-primary/20">
+      {/* Image Container */}
+      <div className="aspect-[3/4] overflow-hidden bg-surface">
         {wine.imageUrl ? (
           <img
             src={wine.imageUrl}
             alt={wine.name}
-            className="w-28 h-28 object-cover rounded-lg"
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         ) : (
-          <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-burgundy/20 to-wine-purple/20 rounded-lg border border-gold/40">
-            <WineIcon className="w-8 h-8 text-burgundy" />
+          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-surface to-secondary">
+            <div className="text-center">
+              <div className="w-16 h-16 mx-auto mb-3 bg-primary/10 rounded-full flex items-center justify-center">
+                <WineIcon className="w-8 h-8 text-primary/60" />
+              </div>
+              <p className="text-sm text-muted font-medium">Imagem não disponível</p>
+            </div>
           </div>
         )}
-        <h3 className="text-xl font-bold text-charcoal group-hover:text-burgundy transition-colors duration-300">
+      </div>
+      
+      {/* Content */}
+      <div className="p-4">
+        <h3 className="text-sm font-semibold text-primary leading-tight line-clamp-3 group-hover:text-primary-light transition-colors duration-200">
           {wine.name}
         </h3>
       </div>
-      {/* {wine.description && (
-        <p className="text-charcoal/70 text-sm leading-relaxed line-clamp-3 group-hover:text-charcoal transition-colors duration-300 px-6">
-          {wine.description}
-        </p>
-      )} */}
-      {/* Decorative bottom border */}
-      <div className="mt-2 h-1 bg-gradient-to-r from-burgundy via-gold to-burgundy rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 mx-6"></div>
     </div>
   );
 };

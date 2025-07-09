@@ -1,4 +1,3 @@
-// import React from 'react';
 import Header from './components/Header';
 import ProducerSection from './components/ProducerSection';
 import { catalog } from './data/catalogData';
@@ -6,10 +5,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-charcoal via-burgundy-dark to-charcoal">
+    <div className="min-h-screen bg-surface font-display">
       <Header />
-      <main className="container mx-auto px-4 py-16">
-        <div className="space-y-20">
+      <main className="container mx-auto px-4 py-12">
+        <div className="space-y-16">
           {catalog.map((producer, index) => (
             <ProducerSection
               key={producer.id}
@@ -21,13 +20,13 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-charcoal text-white py-12 mt-20">
+      <footer className="bg-white border-t border-custom py-12 mt-20">
         <div className="container mx-auto px-4 text-center">
-          <div className="w-16 h-1 bg-gold-gradient mx-auto mb-6 rounded-full"></div>
-          <p className="text-xl  mb-2">Vino Veritas</p>
-          <p className="text-gold/80">Catálogo Premium de Vinhos Brasileiros</p>
-          <p className="text-white/60 mt-4 text-sm">
-            Descubra a excelência dos vinhos nacionais
+          <div className="w-16 h-1 bg-gradient-primary mx-auto mb-6 rounded-full"></div>
+          <h3 className="text-2xl font-bold text-primary mb-2">Vino Veritas</h3>
+          <p className="text-secondary">Catálogo Premium de Vinhos</p>
+          <p className="text-muted mt-4 text-sm">
+            Descubra a excelência dos vinhos selecionados
           </p>
         </div>
       </footer>
