@@ -14,17 +14,17 @@ const Header: React.FC = () => {
 
       <div className="container mx-auto px-4 py-10 relative z-10">
         <div className="text-center animate-fade-in-up">
-          <div className="flex items-center justify-center mb-8">
-            <Grape className="w-12 h-12 text-gold animate-pulse" />
+          <div className="flex items-center justify-center">
+            <Grape className="w-12 h-12 text-gold" />
             <Logo />
-            <Wine className="w-12 h-12 text-gold animate-pulse" />
+            <Wine className="w-12 h-12 text-gold" />
           </div>
           <p className="text-2xl md:text-3xl font-light tracking-wider text-gold/90 max-w-3xl mx-auto mb-8">
             Catálogo Premium de Vinhos Selecionados
           </p>
           <div className="w-32 h-2 bg-gold-gradient mx-auto rounded-full shadow-lg"></div>
           <p className="text-lg text-white/80 mt-6 max-w-2xl mx-auto">
-            Descubra a excelência dos vinhos importados
+            Descubra a excelência dos melhores vinhos importados
           </p>
         </div>
       </div>

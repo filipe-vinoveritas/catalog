@@ -41,11 +41,11 @@ export const catalog: Producer[] = [
     id: "4",
     name: "Vinhos Real Companhia Velha - Portos",
     wines: [
-      { id: "1", name: "Vinho do Porto Dom José Ruby 19% 6/750ml", imageUrl: "" },
+      // { id: "1", name: "Vinho do Porto Dom José Ruby 19% 6/750ml", imageUrl: "" },
       { id: "2", name: "Vinho do Porto Dom José Ruby c/ est. 19% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2020/07/dom-jose-ruby-site.jpg" },
-      { id: "3", name: "Vinho do Porto Dom José Tawny 19% 6/750ml", imageUrl: "" },
+      // { id: "3", name: "Vinho do Porto Dom José Tawny 19% 6/750ml", imageUrl: "" },
       { id: "4", name: "Vinho do Porto Dom José Tawny c/ est. 19% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2020/07/dom-jose-tawny-site.jpg" },
-      { id: "5", name: "Vinho do Porto Dom José Tawny Jubileu 200 anos 20% 6/750ml", imageUrl: "" },
+      // { id: "5", name: "Vinho do Porto Dom José Tawny Jubileu 200 anos 20% 6/750ml", imageUrl: "" },
       { id: "6", name: "Vinho do Porto Royal Oporto 10 anos c/ est. 20% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2020/09/rcv-royal-oporto-10anos-2.png" },
       { id: "7", name: "Vinho do Porto Royal Oporto 20 anos c/ est. 20% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2020/07/porto-20-anos-img-site.jpg" },
       { id: "8", name: "Vinho do Porto Royal Oporto 40 anos Tawny c/ est. 20% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2020/07/porto-40anos-imgsite.png" },
@@ -66,7 +66,7 @@ export const catalog: Producer[] = [
       { id: "2", name: "Vinho Branco Evel DOC SF 2023 13% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2020/07/evel_branco_2023_img-site.png" },
       { id: "3", name: "Vinho Branco Porca de Murça DOC SF 2023 13% 12/375ml (meia garrafa)", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2022/05/9868873812_VINHO20BRANCO20PORCA20DE20MURCA20DOC20375ml2013892.png" },
       { id: "4", name: "Vinho Branco Porca de Murça DOC SF 2024 13% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2020/09/VINHO-BRANCO-PORCA-DE-MURCA-DOC-750ml-11448-sem-selo.png" },
-      { id: "5", name: "Vinho Branco Quinta de Cidrô Alvarinho SF 2022 13% 6/750ml", imageUrl: "" },
+      // { id: "5", name: "Vinho Branco Quinta de Cidrô Alvarinho SF 2022 13% 6/750ml", imageUrl: "" },
       { id: "6", name: "Vinho Branco Quinta de Cidrô Chardonnay SF 2024 13,5% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2020/07/quinta-de-cidro-site.jpg" },
       { id: "7", name: "Vinho Branco Quinta de Cidrô Gewurztraminer SF 2023 13,5% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2020/07/VINHO-BRANCO-QUINTA-DE-CIDRO-GEWURZTRAMINER-750ml-12943.png" },
       { id: "8", name: "Vinho Branco Series Donzelinho SF 2021 11% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2023/09/15213922939_series-donzelinho-imgsite.png" },
@@ -141,7 +141,7 @@ export const catalog: Producer[] = [
       { id: "10", name: "Vinho Rosé Monte Perdigões Colheita Selecionada SF 2024 12,5% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2024/08/15297189207-monte-perdigoes-rose-site.png" },
       { id: "11", name: "Vinho Rosé Tapada do Fidalgo SF 2024 12,8% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2021/09/tapada-fidalgo-rose-2024.jpg" },
       { id: "12", name: "Vinho Tinto Poliphonia Reserva SF 2023 14,5% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2024/02/15207422323_11318-poliphonia-reserva-tinto.png" },
-      { id: "13", name: "Vinho Tinto Poliphonia Signature SF 2017 15% 1/750ml", imageUrl: "" },
+      // { id: "13", name: "Vinho Tinto Poliphonia Signature SF 2017 15% 1/750ml", imageUrl: "" },
       { id: "14", name: "Vinho Tinto Duas Danças SF 2021 13,5% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2024/01/15247421053_DuasDancas-Tinto-imgsite.png" },
       { id: "15", name: "Vinho Tinto Magnum Tapada do Fidalgo Reserva SF 2021 1,5LT", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2024/09/15302703973-11313-tapada-fidalgo-reserva.png" },
       { id: "16", name: "Vinho Tinto Monte Perdigões Colheita Selecionada SF 2022 14% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2024/05/15207416775_11314-monte-perdigoes-tinto.png" },
@@ -160,11 +160,11 @@ export const catalog: Producer[] = [
     id: "10",
     name: "Vinhos Arcos do Rei - Portugal",
     wines: [
-      { id: "1", name: "Vinho Branco Além Mar Lisboa SF 2023 12,5% 6/750ml", imageUrl: "" },
+      // { id: "1", name: "Vinho Branco Além Mar Lisboa SF 2023 12,5% 6/750ml", imageUrl: "" },
       { id: "2", name: "Vinho Branco Arcos da Vinha Colheita Dão DOC SF 2023 13,5% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2025/02/foto-atualizada-branco.jpg" },
       { id: "3", name: "Vinho Branco Arcos da Vinha Reserva Dão DOC SF 2022 12% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2024/10/15304606503-dao-branco-reserva-imgsite.png" },
       { id: "4", name: "Vinho Branco Cartola 13% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2024/10/15304660294-cartolabranco-imgsite.png" },
-      { id: "5", name: "Vinho Tinto Além Mar Lisboa SF 2023 13% 6/750ml", imageUrl: "" },
+      // { id: "5", name: "Vinho Tinto Além Mar Lisboa SF 2023 13% 6/750ml", imageUrl: "" },
       { id: "6", name: "Vinho Tinto Arcos da Vinha Colheita Dão DOC SF 2021 13,5% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2025/02/foto-atualizada.jpg" },
       { id: "7", name: "Vinho Tinto Arcos da Vinha Reserva Dão DOC SF 2018 13% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2024/10/15304627895-arcosdavinhadaoreservatinto-imgsite.png" },
       { id: "8", name: "Vinho Tinto Cartola 13% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2024/10/15304664820-cartolatinto-imgsite.png" }
@@ -183,7 +183,7 @@ export const catalog: Producer[] = [
     name: "Vinhos Bodega Estancia Mendoza - Mendoza",
     wines: [
       { id: "1", name: "Kit Estancia Mendoza Malbec Roble + taça SF 2022 13% 750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2020/12/212719-kit-estancia-mendoza-malbec-roble-frente-2022.jpg" },
-      { id: "2", name: "Kit Estancia Mendoza Varietal Malbec + taça SF 2024 13% 750ml", imageUrl: "" },
+      // { id: "2", name: "Kit Estancia Mendoza Varietal Malbec + taça SF 2024 13% 750ml", imageUrl: "" },
       { id: "3", name: "Vinho Branco Estancia Mendoza Bivarietal Blend Del Enólogo Chardonnay/Chenin SF 2024 13% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2020/07/EMBL-CHCN-0750-site-1.png" },
       { id: "4", name: "Vinho Branco Estancia Mendoza Chardonnay Roble SF 2021 13% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2020/07/VINHO-BRANCO-ESTANCIA-MENDOZA-CHARDONAY-ROBLE-750ml-12721.png" },
       { id: "5", name: "Vinho Branco Estancia Mendoza Varietal Chardonnay SF 2024 13% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2020/07/em-chardonnay-img-site.png" },
@@ -335,8 +335,8 @@ export const catalog: Producer[] = [
     id: "22",
     name: "Vinhos Marevia - Cava",
     wines: [
-      { id: "1", name: "Vinho cava Brut Branco Querena 11,5% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2023/10/15223458092_querena-brut-cava.png" },
-      { id: "2", name: "Vinho cava Brut Rosé Querena 12% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2023/10/15223158627_querena-brut-cava-rose.png" }
+      { id: "1", name: "Vinho Cava Brut Branco Querena 11,5% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2023/10/15223458092_querena-brut-cava.png" },
+      { id: "2", name: "Vinho Cava Brut Rosé Querena 12% 6/750ml", imageUrl: "https://barrinhasvinhos.com.br/wp-content/uploads/2023/10/15223158627_querena-brut-cava-rose.png" }
     ]
   }
 ];
